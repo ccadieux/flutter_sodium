@@ -19,8 +19,9 @@ dev_dependencies:
 
 flutter:
  plugin:
-  android:
-    package: com.firstfloorsoftware.flutter_sodium
-    pluginClass: FlutterSodiumPlugin
-  ios:
-    pluginClass: FlutterSodiumPlugin
+   platforms:
+    android:
+      package: com.firstfloorsoftware.flutter_sodium
+      pluginClass: FlutterSodiumPlugin
+    ios:
+      pluginClass: FlutterSodiumPlugin
